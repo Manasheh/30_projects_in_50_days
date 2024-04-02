@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 100vw;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+}
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:2px solid red;
+}
+input {
+    width:40vw;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 1.4rem;
+    color: blue;
+    outline: none;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px;
+    font-size: 1.6rem;
+    outline: none;
+    border: 2px solid rgb(227, 227, 233);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.todos {
+    margin-top: 40px;
+}
+.todos li:first-child {
+    margin-top: 5px;
+}
+.todos li {
+    color: BLUE;
+    font-size: 1.4rem;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.todos li .remove {
+    float: right;
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+#error {
+    color: red;
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+.todo {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+.todo h2 {
+   width: 30%;
+}
